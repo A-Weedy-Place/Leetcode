@@ -1,4 +1,5 @@
 class Solution(object):
+    
     def kidsWithCandies(self, candies, extraCandies):
         """
         :type candies: List[int]
