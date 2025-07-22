@@ -7,13 +7,13 @@ class Solution(object):
         """
         r1 = r2 = 0
         for i in range(len(player1)):
-            # Player 1 scoring
+            
             if (i >= 1 and player1[i-1] == 10) or (i >= 2 and player1[i-2] == 10):
                 r1 += 2 * player1[i]
             else:
                 r1 += player1[i]
 
-            # Player 2 scoring
+            S
             if (i >= 1 and player2[i-1] == 10) or (i >= 2 and player2[i-2] == 10):
                 r2 += 2 * player2[i]
             else:
