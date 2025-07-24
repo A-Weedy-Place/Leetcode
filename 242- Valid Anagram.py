@@ -9,4 +9,3 @@ class Solution(object):
         t = sorted(t)
 
         return s == t
-
