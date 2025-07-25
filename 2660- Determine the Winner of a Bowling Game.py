@@ -12,8 +12,6 @@ class Solution(object):
                 r1 += 2 * player1[i]
             else:
                 r1 += player1[i]
-
-            S
             if (i >= 1 and player2[i-1] == 10) or (i >= 2 and player2[i-2] == 10):
                 r2 += 2 * player2[i]
             else:
