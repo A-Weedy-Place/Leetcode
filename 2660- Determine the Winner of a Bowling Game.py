@@ -4,7 +4,7 @@ class Solution(object):
         :type player1: List[int]
         :type player2: List[int]
         :rtype: int
-        """
+        """ 
         r1 = r2 = 0
         for i in range(len(player1)):
             
