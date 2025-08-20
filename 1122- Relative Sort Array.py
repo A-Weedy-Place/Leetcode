@@ -11,4 +11,4 @@ class Solution(object):
                 x.append(i)
                 arr1.remove(i)
         arr1.sort()
-        return x + arr1
+        return x + arr1 
