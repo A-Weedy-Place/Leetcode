@@ -14,4 +14,4 @@ class Solution(object):
         rightSum.reverse()
         for i in range(len(nums)):
             answer.append(abs(leftSum[i]-rightSum[i]))
-        return answer
+        return answer 
