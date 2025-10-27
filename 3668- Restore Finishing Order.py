@@ -5,7 +5,6 @@ class Solution(object):
         :type friends: List[int]
         :rtype: List[int]
         """
-        
         fo = []
         for i in order:
             if i in friends:
