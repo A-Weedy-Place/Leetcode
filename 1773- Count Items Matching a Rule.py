@@ -18,3 +18,4 @@ class Solution(object):
                 if i[2] == ruleValue:
                     x+=1
         return x
+    
