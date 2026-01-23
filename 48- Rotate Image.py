@@ -1,0 +1,13 @@
+class Solution(object):
+    def rotate(self, matrix):
+        """
+        :type matrix: List[List[int]]
+        :rtype: None Do not return anything, modify matrix in-place instead.
+        """
+        import copy
+        x = copy.deepcopy(matrix)
+
+        n = len(x)
+        for i in range(n):
+            for j in range(n):
+                matrix[i][j] = x[n-1-j][i]
