@@ -10,3 +10,4 @@ class Solution(object):
             s += n % k
             n = n // k
         return s
+    
