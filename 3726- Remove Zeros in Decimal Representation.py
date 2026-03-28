@@ -10,3 +10,5 @@ class Solution(object):
             if i != "0":
                 x += i
         return int(x)
+    
+        # return int(str(n).replace("0", ""))
