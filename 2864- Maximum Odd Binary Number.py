@@ -15,3 +15,10 @@ class Solution(object):
         return x
     
 # Lmao i think i did it in the most retarded way possible 
+
+        #ones = s.count('1')
+        #zeroes = s.count('0')
+
+        #ones -= 1
+
+        #return '1' * ones + '0' * zeroes + '1'
