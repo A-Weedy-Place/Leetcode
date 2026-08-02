@@ -11,4 +11,4 @@ class Solution(object):
             else:
                 num -= 1
             steps += 1
-        return steps
+        return steps    

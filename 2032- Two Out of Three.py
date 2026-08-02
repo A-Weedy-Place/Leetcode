@@ -22,3 +22,4 @@ class Solution(object):
                 ans.append(nums2[i])
 
         return list(set(ans))
+    
