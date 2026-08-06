@@ -18,4 +18,4 @@ class Solution(object):
 
                     break
 
-        return ans  
+        return ans
