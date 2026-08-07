@@ -6,7 +6,6 @@ class Solution(object):
             for j in range(len(nums2)):
                 if nums2[j] == nums1[i]:
                     found = False
-
                     for k in range(j + 1, len(nums2)):
                         if nums2[k] > nums2[j]:
                             ans.append(nums2[k])
@@ -15,7 +14,5 @@ class Solution(object):
 
                     if not found:
                         ans.append(-1)
-
                     break
-
         return ans
