@@ -21,4 +21,4 @@ class Solution(object):
         if a == 0:        
             return x[::-1]
         else:
-            return '-' + x[::-1]
+            return '-' + x[::-1] 
