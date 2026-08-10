@@ -9,4 +9,4 @@ class Solution(object):
         for i in n:
             s += int(i)
             p *= int(i)
-        return p-s  
+        return p-s
