@@ -11,4 +11,5 @@ class Solution(object):
         for i in n:
             if i == str(x):
                 return True
-        return False
+        return False 
+    
